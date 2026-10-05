@@ -4,6 +4,9 @@
     box-sizing: border-box;
     /* font-family: "Great Vibes", cursive; */
 }
+html,body{
+    overflow-x:clip;
+}
 /* nav bar */
 .header{
     background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(./images/home2.jpg);
